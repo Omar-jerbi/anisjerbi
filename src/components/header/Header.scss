@@ -1,0 +1,31 @@
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+    img {
+        height: auto;
+        width: 20vw;
+        max-width: 250px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        transition: all 500ms;
+        border: 1px solid transparent;
+        padding: 5px;
+    }
+
+    a:hover {
+        border: 1px solid white;
+    }
+
+    .link{
+        width: 10vw;
+    }
+}
