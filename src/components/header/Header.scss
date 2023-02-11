@@ -1,31 +1,69 @@
 .header {
     background-color: black;
-    color: white;
-    display: flex;
-    font-size: 2rem;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 50px;
+}
 
-    img {
-        height: auto;
-        width: 20vw;
-        max-width: 251px;
+@media only screen and (max-width: 600px) {
+    .header {
+        position: relative;
+
+        img {
+            height: auto;
+            width: 40vw;
+            max-width: 251px;
+        }
+
+        .desktop-menu {
+            .link {
+                display: none;
+            }
+        }
+
+        .img-wrapper {
+            text-align: center;
+        }
+
+        .burger-menu {
+            position: absolute;
+            top: 25%;
+            padding-left: 20px;
+
+            svg {
+                width: 25px;
+                fill: white;
+            }
+
+            .menu {
+                background-color: black;
+                position: absolute;
+                top: -25px;
+                left: -100vw;
+                width: 100vw;
+                height: 100vh;
+
+                a {
+                    text-decoration: none;
+                    color: #575757;
+
+                    h1 {
+                        margin: 0;
+                        font-size: xxx-large;                        
+                    }
+                }
+
+                .link {
+                    margin: 10px 0;
+                    padding: 17% 0;
+                    text-align: center;
+                }
+
+                transition: all 450ms;
+            }
+
+            .menu-showing {
+                left: 0;
+            }
+
+        }
     }
 
-    a {
-        color: white;
-        text-decoration: none;
-        transition: all 500ms;
-        border: 1px solid transparent;
-        padding: 5px;
-    }
-
-    a:hover {
-        border: 1px solid white;
-    }
-
-    .link{
-        width: 10vw;
-    }
 }

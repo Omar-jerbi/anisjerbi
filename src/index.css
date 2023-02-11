@@ -1,6 +1,11 @@
 @font-face {
-  font-family: Vintage;
-  src: url(../public/Vintage.ttf);
+  font-family: Grenadier;
+  src: url(../public/GrenadierNF.ttf);
+}
+
+@font-face {
+  font-family: Seaside;
+  src: url(../public/SeasideResortNF.ttf);
 }
 
 body {
@@ -10,12 +15,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  font-family: Vintage;
+  font-family: Grenadier;
   background-image: url("../public/img/bg.jpeg");
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Seaside;
+}
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+button {
+  font-family: Seaside;
+}
+
+input,textarea {
+  font-family: Grenadier;
+  letter-spacing: 0.2rem;
+}
