@@ -5,6 +5,8 @@
 @media only screen and (max-width: 600px) {
     .header {
         position: relative;
+        height: 80px;
+        z-index: 999;
 
         img {
             height: auto;
@@ -35,7 +37,6 @@
             .menu {
                 background-color: black;
                 position: absolute;
-                top: -25px;
                 left: -100vw;
                 width: 100vw;
                 height: 100vh;
@@ -43,10 +44,13 @@
                 a {
                     text-decoration: none;
                     color: #575757;
+                    display: flex;
+                    justify-content: center;
 
                     h1 {
                         margin: 0;
-                        font-size: xxx-large;                        
+                        font-size: xxx-large;
+                        width: fit-content;
                     }
                 }
 

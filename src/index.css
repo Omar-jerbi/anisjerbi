@@ -8,6 +8,11 @@
   src: url(../public/SeasideResortNF.ttf);
 }
 
+@font-face {
+  font-family: Milton;
+  src: url(../public/Milton_Two_Bold.otf);
+}
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
