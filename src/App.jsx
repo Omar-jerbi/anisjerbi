@@ -14,10 +14,10 @@ function App() {
         <Header />
 
         <Routes>
-          <Route index element={<Home></Home>} />
-          <Route path='/contacts' element={<Contacts />} />
-          <Route path='/gallery' element={<Gallery />} />
-          <Route path='/press' element={<Press />} />
+          <Route exact index element={<Home />} />
+          <Route exact path='/contacts' element={<Contacts />} />
+          <Route exact path='/gallery' element={<Gallery />} />
+          <Route exact path='/press' element={<Press />} />
         </Routes>
 
         <Footer />

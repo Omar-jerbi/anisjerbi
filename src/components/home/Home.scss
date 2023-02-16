@@ -50,6 +50,7 @@
             h1 {
                 font-family: Milton;
                 font-size: 7rem;
+                font-weight: 100;
             }
         }
 
@@ -68,9 +69,36 @@
         width: 90vw;
         margin: 0 5vw;
 
-        img {
-            width: 100%;
+        .wrapper {
+            position: relative;
+            height: 500px;
+
+            img {
+                position: absolute;
+                width: 100%;
+            }
+
+            #whoamiIMG {
+                opacity: 0;
+                animation: showWAI 2s linear 6s 1 forwards;
+            }
+
+            #aboutIMG {
+                opacity: 0;
+                animation: showWAI 2s linear 7s 1 forwards;
+            }
+
+            @keyframes showWAI {
+                from {
+                    opacity: 0;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
         }
+
     }
 
     .image {

@@ -46,7 +46,10 @@ export default class Home extends Component {
         </div>
 
         <div className="whoami">
-          <img src="/img/About.png" alt="" />
+          <div className="wrapper">
+            <img id='whoamiIMG' src="/img/Who_Am_I.png" alt="" />
+            <img id='aboutIMG' src="/img/About_Paragraph.png" alt="" />
+          </div>
         </div>
 
 

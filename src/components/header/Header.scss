@@ -71,3 +71,14 @@
     }
 
 }
+
+@media only screen and (max-width: 400px) {
+    .header {
+
+        .menu {
+            .link {
+                padding: 10% 0 !important;
+            }
+        }
+    }
+}
