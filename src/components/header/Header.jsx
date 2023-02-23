@@ -13,14 +13,10 @@ export default class Header extends Component {
 
     setSelectedLink = (e) => {
         document.querySelectorAll('.link').forEach(l => {
-            l.firstChild.style.color = '#575757';
-            l.firstChild.style.textDecoration = "none";
-            if (l.querySelector("h1")) l.querySelector("h1").style.scale = "1"
+            l.classList.remove('selected-link')
         });
 
-        e.currentTarget.style.textDecoration = "underline";
-        e.currentTarget.style.color = "floralwhite";
-        e.currentTarget.querySelector("h1").style.scale = "1.3";
+        e.currentTarget.classList.add(`selected-link`)
     }
 
     componentDidMount = () => {
@@ -32,7 +28,7 @@ export default class Header extends Component {
     }
 
     componentWillUnmount = () => {
-        document.removeEventListener("scroll", ()=>{})
+        document.removeEventListener("scroll", () => { })
     }
 
 
@@ -54,23 +50,23 @@ export default class Header extends Component {
                     </svg>
 
                     <div className="menu" id='toshow'>
-                        <div className='link'>
-                            <Link to={"/"} onClick={(e) => this.setSelectedLink(e)}>
+                        <div className={'link' + (window.location.pathname === '/' ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                            <Link to={"/"} >
                                 <h1>Home</h1>
                             </Link>
                         </div>
-                        <div className='link'>
-                            <Link to={"/contacts"} onClick={(e) => this.setSelectedLink(e)}>
+                        <div className={'link' + (window.location.pathname.includes('contacts') ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                            <Link to={"/contacts"} >
                                 <h1>Contacts</h1>
                             </Link>
                         </div>
-                        <div className='link'>
-                            <Link to={'/gallery'} onClick={(e) => this.setSelectedLink(e)}>
+                        <div className={'link' + (window.location.pathname.includes('gallery') ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                            <Link to={'/gallery'} >
                                 <h1>Gallery</h1>
                             </Link>
                         </div>
-                        <div className='link'>
-                            <Link to={'/press'} onClick={(e) => this.setSelectedLink(e)}>
+                        <div className={'link' + (window.location.pathname.includes('press') ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                            <Link to={'/press'}>
                                 <h1>Press</h1>
                             </Link>
                         </div>
@@ -78,27 +74,27 @@ export default class Header extends Component {
                 </div>
 
                 <div className="desktop-menu">
-                    <div className='link'>
-                        <Link to={"/"} onClick={(e) => this.setSelectedLink(e)}>
-                            Home
+                    <div className={'link' + (window.location.pathname === '/' ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                        <Link to={"/"}>
+                            <h1> Home</h1>
                         </Link>
                     </div>
-                    <div className='link'>
-                        <Link to={"/contacts"} onClick={(e) => this.setSelectedLink(e)}>
-                            Contacts
+                    <div className={'link' + (window.location.pathname.includes('contacts') ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                        <Link to={"/contacts"} >
+                            <h1> Contacts</h1>
                         </Link>
                     </div>
                     <div className='img-wrapper'>
                         <img src="/img/logo.png" alt="" srcSet="" />
                     </div>
-                    <div className='link'>
-                        <Link to={'/gallery'} onClick={(e) => this.setSelectedLink(e)}>
-                            Gallery
+                    <div className={'link' + (window.location.pathname.includes('gallery') ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                        <Link to={'/gallery'}>
+                            <h1> Gallery</h1>
                         </Link>
                     </div>
-                    <div className='link'>
-                        <Link to={'/press'} onClick={(e) => this.setSelectedLink(e)}>
-                            Press
+                    <div className={'link' + (window.location.pathname.includes('press') ? " selected-link" : '')} onClick={(e) => this.setSelectedLink(e)}>
+                        <Link to={'/press'}>
+                            <h1> Press</h1>
                         </Link>
                     </div>
                 </div>

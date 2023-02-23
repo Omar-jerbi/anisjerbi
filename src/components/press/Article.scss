@@ -1,12 +1,19 @@
-.article{
+.article {
     margin-bottom: 20px;
-    img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
         width: 100vw;
+        max-width: 500px;
     }
 
-    .tit{
+    .tit {
         transform: translateY(-5px);
         width: 70vw;
+        max-width: 400px;
         margin: 0 15vw;
         background-color: white;
         text-align: center;

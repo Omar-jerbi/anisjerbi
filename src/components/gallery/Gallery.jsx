@@ -1,45 +1,46 @@
 import React, { Component } from 'react'
 import './Gallery.scss'
+import images from '../gallery.json'
 
 export default class Gallery extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      imgs: [],
     }
   }
 
   componentDidMount = () => {
-    document.addEventListener("scroll", () => {
-      document.querySelector("#img" + (Math.round(window.scrollY / 500))).style.opacity = 1
-
-      document.querySelectorAll(".image").forEach(i => {
-        if (i.querySelector("img").height === 0) {
-          i.remove()
-        }
-      }
-      )
-    })
-
-    let array = [];
-    for (let i = 0; i < 1000; i++) {
-      array.push(<img src={"/img/gallery/" + i + '.jpg'} id={"img" + i} alt="" srcset="" />)
-    }
-
-    this.setState({ imgs: array })
+    // window.onscroll = () => this.onscroll()
   }
 
+  // onscroll = () => {
+  //   document.querySelectorAll(".image").forEach(i => {
+  //     if (i.querySelector("img").height === 0) {
+  //       i.remove()
+  //     }
+  //   })
+  // }
 
+  handleClickImg = (e) => {
+    if (e.currentTarget.classList.contains("image-selected"))
+      e.currentTarget.classList.remove("image-selected")
+    else {
+      document.querySelectorAll(".image").forEach(i => i.classList.remove("image-selected"))
+      e.currentTarget.classList.add("image-selected")
+    }
+  }
 
 
   render() {
     return (
       <div className="gallery">
         {
-          this.state.imgs.map((img, k) =>
-            <div key={k} className="image">
-              {img}
-              <span className='serial'>#{k}</span>
+          images.map((img, k) =>
+            <div className="image" onClick={(e) => this.handleClickImg(e)}>
+              <img src={img.src} alt="" />
+              <div className="title">
+                {img.name}
+              </div>
             </div>
           )
         }

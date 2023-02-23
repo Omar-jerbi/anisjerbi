@@ -37,11 +37,15 @@ export default class Home extends Component {
       <div className="home">
         <div className="welcome">
           <img src="/img/Jessica Chastain/Oil Painting of Jessica Chastain.jpg" alt="" srcset="" />
-          <div className="msg">
+          <div className="msg" id='msgmobile'>
             <h1>Welcome <br />
               to <br />
               my<br />
               gallery</h1>
+          </div>
+
+          <div className='msg' id='msgdesk'>
+            Welcome to my gallery
           </div>
         </div>
 
@@ -56,23 +60,23 @@ export default class Home extends Component {
         <div className="image">
           <img id='BE' src="/img/Billie Eilish/Official photo of oil painting of Billie EIlish.jpg" alt="" srcset="" />
           <div className="link" id='BETEXT'>
-            <Link to={'/gallery'}><h3>gallery</h3></Link>
+            <Link to={'/gallery'}><h3>gallery</h3> <hr /></Link>
           </div>
         </div>
 
 
         <div className="image">
-          <img id='CM' src="/img/Meryl's dog/Official photo of me with oil painting of Meryl's dog.jpg" alt="" srcset="" />
+          <img id='CM' src="/img/sweet food oil painting.jpg" alt="" srcset="" />
           <div className="link" id='CMTEXT'>
-            <Link to={'/contacts'}><h3>Contact me</h3></Link>
+            <Link to={'/contacts'}><h3>Contact me</h3><hr /></Link>
           </div>
         </div>
 
 
         <div className="image">
-          <img id='PRESS' src="/img/pressImg.jpeg" alt="" srcset="" />
+          <img id='PRESS' src="/img/Running out of time oil painting.jpg" alt="" srcset="" />
           <div className="link" id='PRESSTEXT'>
-            <Link to={'/press'}><h3>Press</h3></Link>
+            <Link to={'/press'}><h3>Press</h3><hr /></Link>
           </div>
         </div>
 

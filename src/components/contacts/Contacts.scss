@@ -1,6 +1,6 @@
 .contacts {
     width: 80vw;
-    margin: 0 10vw;
+    margin: 14vh 10vw;
 
     .formcontact {
         h1 {
@@ -8,10 +8,17 @@
             text-align: center;
         }
 
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         input {
             border: 2px solid white;
             background-color: black;
             width: 100%;
+            max-width: 600px;
             font-size: 1.5rem;
             color: white;
             padding: 5px 0 5px 5px;
@@ -20,6 +27,7 @@
 
         textarea {
             width: 100%;
+            max-width: 600px;
             font-size: 1.2rem;
             overflow: hidden;
             background-color: black;
@@ -50,4 +58,11 @@
             }
         }
     }
+}
+
+@media screen and (min-width:2000px) {
+    .contacts {
+        margin: 20vh 10vw;
+    }
+
 }
