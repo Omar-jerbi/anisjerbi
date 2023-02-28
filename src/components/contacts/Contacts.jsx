@@ -15,9 +15,9 @@ export default class Contacts extends Component {
 
   sendMail = async () => {
     await axios.post('https://api.emailjs.com/api/v1.0/email/send', {
-      service_id: `service_daii46c`,
-      template_id: 'template_k7wan9f',
-      user_id: 'dUHqSwjzELg5lMfCQ',
+      service_id: `service_m4q4nqp`,
+      template_id: 'template_m2hwlmq',
+      user_id: 'CeIIbCh-H-5Kdau7P',
       template_params: {
         name_client: this.state.name,
         email_client: this.state.email,
@@ -39,9 +39,9 @@ export default class Contacts extends Component {
         console.error(error))
   }
 
-   textAreaAdjust(element) {
+  textAreaAdjust(element) {
     element.style.height = "1px";
-    element.style.height = (25+element.scrollHeight)+"px";
+    element.style.height = (25 + element.scrollHeight) + "px";
   }
 
   render() {
@@ -49,10 +49,10 @@ export default class Contacts extends Component {
       <div className="contacts">
         <form className='formcontact'>
           <h1>Reach out to me here</h1>
-          <div><input type="text" placeholder='Your name...' onChange={(e) => this.setState({ name: e.target.value })} /></div>
-          <div><input type="text" placeholder='Your email address...' onChange={(e) => this.setState({ email: e.target.value })} /></div>
-          <div><textarea onKeyUp={(e)=>this.textAreaAdjust(e.target)} rows={"10"} cols="30" placeholder='How may I help you?' onChange={(e) => this.setState({ emailcontent: e.target.value })}></textarea></div>
-          <div className='button-wrapper'><button onClick={(e) => {e.preventDefault(); this.sendMail()}}>Send message</button></div>
+          <div><input value={this.state.name} type="text" placeholder='Your name...' onChange={(e) => this.setState({ name: e.target.value })} /></div>
+          <div><input value={this.state.email} type="text" placeholder='Your email address...' onChange={(e) => this.setState({ email: e.target.value })} /></div>
+          <div><textarea value={this.state.emailcontent} onKeyUp={(e) => this.textAreaAdjust(e.target)} rows={"10"} cols="30" placeholder='How may I help you?' onChange={(e) => this.setState({ emailcontent: e.target.value })}></textarea></div>
+          <div className='button-wrapper'><button onClick={(e) => { e.preventDefault(); this.sendMail() }}>Send message</button></div>
         </form>
       </div>
     )
