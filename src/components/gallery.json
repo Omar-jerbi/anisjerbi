@@ -52,6 +52,10 @@
         "src":"/img/Billie Eilish/Official photo of oil painting of Billie EIlish.jpg"
     },
     {
+        "name":"Billie Eilish Drawing",
+        "src":"/img/Billie Eilish/Billie Eilish drawing.jpg"
+    },
+    {
         "name":"Bryan Miner",
         "src":"/img/Bryan Miner/Official photo of drawing for Bryan Miner.jpg"
     },
@@ -246,10 +250,6 @@
     {
         "name":"Breonna Taylor",
         "src":"/img/Official photo of drawing of Breonna Taylor.jpg"
-    },
-    {
-        "name":"Obama",
-        "src":"/img/Official photo of drawing of Obama-2.jpg"
     },
     {
         "name":"Obama",
