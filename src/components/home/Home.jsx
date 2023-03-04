@@ -25,7 +25,7 @@ export default class Home extends Component {
       document.querySelector("#CMTEXT").classList.add('animationText')
     }
 
-    if (window.scrollY >= 1800) {
+    if (window.scrollY >= 1200) {
       document.querySelector("#PRESS").classList.add('animation')
       document.querySelector("#PRESSTEXT").classList.add('animationText')
     }
