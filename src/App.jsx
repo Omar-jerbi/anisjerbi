@@ -35,7 +35,7 @@ function App() {
         <Routes>
           <Route exact index element={<Home />} />
           <Route exact path='/contacts' element={<Contacts />} />
-          <Route exact path='/gallery' element={<Gallery test={x} />} />
+          <Route exact path='/gallery' element={<Gallery imagesRef={x} />} />
           <Route exact path='/press' element={<Press />} />
         </Routes>
 
