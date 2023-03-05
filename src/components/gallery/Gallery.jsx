@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Gallery.scss'
 import images from '../gallery.json'
+import firebase from "firebase/app";
+
 
 export default class Gallery extends Component {
   constructor(props) {
@@ -22,7 +24,7 @@ export default class Gallery extends Component {
   render() {
     return (
       <div className="gallery">
-        {
+        {/* {
           images.map((img, k) =>
             <div className="image" onClick={(e) => this.handleClickImg(e)}>
               <img src={img.src} alt="" />
@@ -34,7 +36,9 @@ export default class Gallery extends Component {
               }
             </div>
           )
-        }
+        } */}
+
+        <img src={this.props.test} alt="" />
       </div>
     )
   }
