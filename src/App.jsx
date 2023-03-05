@@ -14,7 +14,6 @@ function App() {
   const fbConfig = {
     projectId: "anis-jerbi-art-website",
     storageBucket: "anis-jerbi-art-website.appspot.com",
-    messagingSenderId: "163221941358",
   }
 
   const app = initializeApp(fbConfig);

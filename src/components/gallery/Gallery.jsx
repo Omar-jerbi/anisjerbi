@@ -23,13 +23,6 @@ export default class Gallery extends Component {
     }
   }
 
-  getImage = async (src) => {
-    const imagesRef = ref(this.props.storageRef, src);
-    let r = ''
-    await getDownloadURL(imagesRef).then((url) => console.log(url))
-    return r
-  }
-
 
   componentDidMount = () => {
     images.map(i => {
