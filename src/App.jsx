@@ -8,7 +8,6 @@ import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import { initializeApp } from 'firebase/app'
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
-import { useState } from 'react';
 
 
 function App() {
@@ -23,8 +22,8 @@ function App() {
   const storageRef = ref(storage);
 
   const imagesRef = ref(storageRef, 'BGfooter.jpeg');
-  const [x, setX] = useState('')
-  getDownloadURL(imagesRef).then((url) => setX(url))
+
+  getDownloadURL(imagesRef).then((url) => console.log(url))
 
   return (
     <div className="App">
