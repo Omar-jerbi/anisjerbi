@@ -21,6 +21,16 @@
             font-size: 3rem;
             opacity: 0;
         }
+
+        .ribbon{
+            background-color: rgba(255, 0, 0, 0.534);
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            color: aliceblue;
+            padding: 5px;
+            font-size: 1.3rem;
+        }
     }
 
     .image-selected {

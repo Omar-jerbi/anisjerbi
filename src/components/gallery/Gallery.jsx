@@ -9,18 +9,6 @@ export default class Gallery extends Component {
     }
   }
 
-  componentDidMount = () => {
-    // window.onscroll = () => this.onscroll()
-  }
-
-  // onscroll = () => {
-  //   document.querySelectorAll(".image").forEach(i => {
-  //     if (i.querySelector("img").height === 0) {
-  //       i.remove()
-  //     }
-  //   })
-  // }
-
   handleClickImg = (e) => {
     if (e.currentTarget.classList.contains("image-selected"))
       e.currentTarget.classList.remove("image-selected")
@@ -41,6 +29,9 @@ export default class Gallery extends Component {
               <div className="title">
                 {img.name}
               </div>
+              {!img.available &&
+                <div className="ribbon">SOLD</div>
+              }
             </div>
           )
         }

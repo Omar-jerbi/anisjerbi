@@ -1,291 +1,362 @@
 [
     {
-        "name":"Sydney Sweeney",
-        "src":"/img/Sydney Sweeney/Official photo of drawing of Sydney Sweeney.jpg"
+        "name": "Sydney Sweeney",
+        "src": "/img/Sydney Sweeney/Official photo of drawing of Sydney Sweeney.jpg",
+        "available": true
     },
     {
-        "name":"The Hobbit",
-        "src":"/img/The Hobbit/Official photo of the Hobbit oil painting.jpg"
+        "name": "The Hobbit",
+        "src": "/img/The Hobbit/Official photo of the Hobbit oil painting.jpg",
+        "available": true
     },
     {
-        "name":"Water Seller",
-        "src":"/img/Water Seller/Official photo of oil painting of water seller.jpg"
+        "name": "Water Seller",
+        "src": "/img/Water Seller/Official photo of oil painting of water seller.jpg",
+        "available": true
     },
     {
-        "name":"Baby",
-        "src":"/img/Baby/Official photo of drawing of Baby.jpg"
+        "name": "Baby",
+        "src": "/img/Baby/Official photo of drawing of Baby.jpg",
+        "available": true
     },
     {
-        "name":"AOC",
-        "src":"/img/AOC/Oil painting of AOC.jpg"
+        "name": "AOC",
+        "src": "/img/AOC/Oil painting of AOC.jpg",
+        "available": true
     },
     {
-        "name":"Alison and husband",
-        "src":"/img/Alison and husband/Official photo of drawing of Alison and her husband1.jpg"
+        "name": "Alison and husband",
+        "src": "/img/Alison and husband/Official photo of drawing of Alison and her husband1.jpg",
+        "available": true
     },
     {
-        "name":"Adrian's wife",
-        "src":"/img/Adrian's wife/Official photo of my oil painting of Adrian's wife (on commission).jpg"
+        "name": "Adrian's wife",
+        "src": "/img/Adrian's wife/Official photo of my oil painting of Adrian's wife (on commission).jpg",
+        "available": true
     },
     {
-        "name":"Ana de Armas",
-        "src":"/img/Ana de Armas/Official photo of drawing of Ana de Armas.jpg"
+        "name": "Ana de Armas",
+        "src": "/img/Ana de Armas/Official photo of drawing of Ana de Armas.jpg",
+        "available": true
     },
     {
-        "name":"Amerie",
-        "src":"/img/Amerie/Official photo of drawing of Amerie Jo Garza.jpg"
+        "name": "Amerie",
+        "src": "/img/Amerie/Official photo of drawing of Amerie Jo Garza.jpg",
+        "available": true
     },
     {
-        "name":"Anastasia",
-        "src":"/img/Anastasia/Official photo of drawing of Anastasia.jpg"
+        "name": "Anastasia",
+        "src": "/img/Anastasia/Official photo of drawing of Anastasia.jpg",
+        "available": true
     },
     {
-        "name":"Bebe",
-        "src":"/img/Bebe/20220822_194939.jpg"
+        "name": "Bebe",
+        "src": "/img/Bebe/20220822_194939.jpg",
+        "available": true
     },
     {
-        "name":"Beto",
-        "src":"/img/Beto/Official photo of drawing of Beto O'Rourke.jpg"
+        "name": "Beto",
+        "src": "/img/Beto/Official photo of drawing of Beto O'Rourke.jpg",
+        "available": true
     },
     {
-        "name":"Billie Eilish",
-        "src":"/img/Billie Eilish/Official photo of oil painting of Billie EIlish.jpg"
+        "name": "Billie Eilish",
+        "src": "/img/Billie Eilish/Official photo of oil painting of Billie EIlish.jpg",
+        "available": true
     },
     {
-        "name":"Billie Eilish Drawing",
-        "src":"/img/Billie Eilish/Billie Eilish drawing.jpg"
+        "name": "Billie Eilish Drawing",
+        "src": "/img/Billie Eilish/Billie Eilish drawing.jpg",
+        "available": true
     },
     {
-        "name":"Bryan Miner",
-        "src":"/img/Bryan Miner/Official photo of drawing for Bryan Miner.jpg"
+        "name": "Bryan Miner",
+        "src": "/img/Bryan Miner/Official photo of drawing for Bryan Miner.jpg",
+        "available": true
     },
     {
-        "name":"Carters",
-        "src":"/img/Carters/_Official_Photo_Of_Drawing_Of_Carters.jpg"
+        "name": "Carters",
+        "src": "/img/Carters/_Official_Photo_Of_Drawing_Of_Carters.jpg",
+        "available": true
     },
     {
-        "name":"Caylee Cowan",
-        "src":"/img/Caylee Cowan/Official photo of drawing of Caylee Cowan.jpg"
+        "name": "Caylee Cowan",
+        "src": "/img/Caylee Cowan/Official photo of drawing of Caylee Cowan.jpg",
+        "available": true
     },
     {
-        "name":"Chloe Grace Moretz",
-        "src":"/img/Chloe Grace Moretz/Official photo of drawing of Chloe Grace Moretz.jpg"
+        "name": "Chloe Grace Moretz",
+        "src": "/img/Chloe Grace Moretz/Official photo of drawing of Chloe Grace Moretz.jpg",
+        "available": true
     },
     {
-        "name":"Commission of Ray",
-        "src":"/img/Commission of Ray/Official_Photo_of_painting_for_Ray.jpg"
+        "name": "Commission of Ray",
+        "src": "/img/Commission of Ray/Official_Photo_of_painting_for_Ray.jpg",
+        "available": true
     },
     {
-        "name":"Drawing of Patron",
-        "src":"/img/Drawing of Patron/Official photo of drawing of Patron.jpg"
+        "name": "Drawing of Patron",
+        "src": "/img/Drawing of Patron/Official photo of drawing of Patron.jpg",
+        "available": true
     },
     {
-        "name":"Elle Fanning",
-        "src":"/img/Elle Fanning/Official photo of drawing of Elle Fanning.jpg"
+        "name": "Elle Fanning",
+        "src": "/img/Elle Fanning/Official photo of drawing of Elle Fanning.jpg",
+        "available": true
     },
     {
-        "name":"Emily on a horse",
-        "src":"/img/Emily on a horse/Official photo of oil painting of Emily on a horse.jpg"
+        "name": "Emily on a horse",
+        "src": "/img/Emily on a horse/Official photo of oil painting of Emily on a horse.jpg",
+        "available": true
     },
     {
-        "name":"Emma Stone",
-        "src":"/img/Emma Stone/Official photo of drawing of Emma Stone.jpg"
+        "name": "Emma Stone",
+        "src": "/img/Emma Stone/Official photo of drawing of Emma Stone.jpg",
+        "available": true
     },
     {
-        "name":"Eric Swalwell",
-        "src":"/img/Eric Swalwell/Official photo of drawing of Eric Swalwell.jpg"
+        "name": "Eric Swalwell",
+        "src": "/img/Eric Swalwell/Official photo of drawing of Eric Swalwell.jpg",
+        "available": true
     },
     {
-        "name":"Grace Hopper",
-        "src":"/img/Grace Hopper/Official photo of drawing of Grace Hopper on commission.jpg"
+        "name": "Grace Hopper",
+        "src": "/img/Grace Hopper/Official photo of drawing of Grace Hopper on commission.jpg",
+        "available": true
     },
     {
-        "name":"Grace",
-        "src":"/img/Grace/Official photo of drawing on commission for Grace.jpg"
+        "name": "Grace",
+        "src": "/img/Grace/Official photo of drawing on commission for Grace.jpg",
+        "available": true
     },
     {
-        "name":"Jessica Chastain",
-        "src":"/img/Jessica Chastain/Oil Painting of Jessica Chastain.jpg"
+        "name": "Jessica Chastain",
+        "src": "/img/Jessica Chastain/Oil Painting of Jessica Chastain.jpg",
+        "available": true
     },
     {
-        "name":"Jesus",
-        "src":"/img/Jesus/20220825_160219.jpg"
+        "name": "Jesus",
+        "src": "/img/Jesus/20220825_160219.jpg",
+        "available": true
     },
     {
-        "name":"Jill Biden",
-        "src":"/img/Jill Biden/Official photo of drawing of Jill Biden.jpg"
+        "name": "Jill Biden",
+        "src": "/img/Jill Biden/Official photo of drawing of Jill Biden.jpg",
+        "available": true
     },
     {
-        "name":"Joe Biden",
-        "src":"/img/Joe Biden/Official photo of drawing of Joe Biden.jpg"
+        "name": "Joe Biden",
+        "src": "/img/Joe Biden/Official photo of drawing of Joe Biden.jpg",
+        "available": true
     },
     {
-        "name":"John Fetterman",
-        "src":"/img/John Fetterman/Official photo of drawing of John Fetterman.jpg"
+        "name": "John Fetterman",
+        "src": "/img/John Fetterman/Official photo of drawing of John Fetterman.jpg",
+        "available": true
     },
     {
-        "name":"John Lewis barack Obama",
-        "src":"/img/John Lewis barack Obama/Official Photo of John Lewis and Barack Obama Hugging.jpg"
+        "name": "John Lewis barack Obama",
+        "src": "/img/John Lewis barack Obama/Official Photo of John Lewis and Barack Obama Hugging.jpg",
+        "available": true
     },
     {
-        "name":"John Lewis",
-        "src":"/img/John Lewis/Official photo of oil painting of John Lewis.jpg"
+        "name": "John Lewis",
+        "src": "/img/John Lewis/Official photo of oil painting of John Lewis.jpg",
+        "available": true
     },
     {
-        "name":"John McCain",
-        "src":"/img/John McCain/Official photo of drawing of John McCain.jpg"
+        "name": "John McCain",
+        "src": "/img/John McCain/Official photo of drawing of John McCain.jpg",
+        "available": true
     },
     {
-        "name":"Jon Stewart",
-        "src":"/img/Jon Stewart/Official photo of drawing of Jon Stewart.jpg"
+        "name": "Jon Stewart",
+        "src": "/img/Jon Stewart/Official photo of drawing of Jon Stewart.jpg",
+        "available": true
     },
     {
-        "name":"Joseph's sons",
-        "src":"/img/Joseph's sons/Official photo of drawing of Joseph's sons.jpg"
+        "name": "Joseph's sons",
+        "src": "/img/Joseph's sons/Official photo of drawing of Joseph's sons.jpg",
+        "available": true
     },
     {
-        "name":"Kathy Griffin",
-        "src":"/img/Kathy Griffin/Official photo of drawing of Kathy Griffin.jpg"
+        "name": "Kathy Griffin",
+        "src": "/img/Kathy Griffin/Official photo of drawing of Kathy Griffin.jpg",
+        "available": true
     },
     {
-        "name":"Katie Porter",
-        "src":"/img/Katie Porter/Official photo of drawing of Katie Porter.jpg"
+        "name": "Katie Porter",
+        "src": "/img/Katie Porter/Official photo of drawing of Katie Porter.jpg",
+        "available": true
     },
     {
-        "name":"Ketanji Brown Jackson",
-        "src":"/img/Ketanji Brown Jackson/Official photo of drawing of Ketanji Brown Jackson.jpg"
+        "name": "Ketanji Brown Jackson",
+        "src": "/img/Ketanji Brown Jackson/Official photo of drawing of Ketanji Brown Jackson.jpg",
+        "available": true
     },
     {
-        "name":"Kira",
-        "src":"/img/Kira/Official photo of drawing of Kira.jpg"
+        "name": "Kira",
+        "src": "/img/Kira/Official photo of drawing of Kira.jpg",
+        "available": true
     },
     {
-        "name":"MJ",
-        "src":"/img/MJ/Official Photo of drawing of MJ.jpg"
+        "name": "MJ",
+        "src": "/img/MJ/Official Photo of drawing of MJ.jpg",
+        "available": true
     },
     {
-        "name":"Merrick Garland",
-        "src":"/img/Merrick Garland/Official photo of drawing of Merrick Garland.jpg"
+        "name": "Merrick Garland",
+        "src": "/img/Merrick Garland/Official photo of drawing of Merrick Garland.jpg",
+        "available": true
     },
     {
-        "name":"Meryl's dog",
-        "src":"/img/Meryl's dog/Official photo of oil painting of Meryl's dog.jpg"
+        "name": "Meryl's dog",
+        "src": "/img/Meryl's dog/Official photo of oil painting of Meryl's dog.jpg",
+        "available": true
     },
     {
-        "name":"Michael Eastlack",
-        "src":"/img/Michael Eastlack/Official photo of drawing of Michael Eastlack and his wife.jpg"
+        "name": "Michael Eastlack",
+        "src": "/img/Michael Eastlack/Official photo of drawing of Michael Eastlack and his wife.jpg",
+        "available": true
     },
     {
-        "name":"Miley Cyrus",
-        "src":"/img/Miley Cyrus/Official photo of drawing of Miley Cyrus.jpg"
+        "name": "Miley Cyrus",
+        "src": "/img/Miley Cyrus/Official photo of drawing of Miley Cyrus.jpg",
+        "available": true
     },
     {
-        "name":"Nancy Pelosi",
-        "src":"/img/Nancy Pelosi/Official photo of drawing of Nancy Pelosi.jpg"
+        "name": "Nancy Pelosi",
+        "src": "/img/Nancy Pelosi/Official photo of drawing of Nancy Pelosi.jpg",
+        "available": true
     },
     {
-        "name":"Nicole Kidman",
-        "src":"/img/Nicole Kidman/IMG_20210115_140104.jpg"
+        "name": "Nicole Kidman",
+        "src": "/img/Nicole Kidman/IMG_20210115_140104.jpg",
+        "available": true
     },
     {
-        "name":"Oil painting of lady",
-        "src":"/img/Oil painting of lady/Official photo of oil painting of lady.jpg"
+        "name": "Oil painting of lady",
+        "src": "/img/Oil painting of lady/Official photo of oil painting of lady.jpg",
+        "available": true
     },
     {
-        "name":"Queen Elizabeth II",
-        "src":"/img/Queen Elizabeth II/Official photo of oil painting of Queen Elizabeth II.jpg"
+        "name": "Queen Elizabeth II",
+        "src": "/img/Queen Elizabeth II/Official photo of oil painting of Queen Elizabeth II.jpg",
+        "available": true
     },
     {
-        "name":"RBG",
-        "src":"/img/RBG/Offciail photo of oil painting of Ruth Bader Ginsburg and Susan B. Anthony.jpg"
+        "name": "RBG",
+        "src": "/img/RBG/Offciail photo of oil painting of Ruth Bader Ginsburg and Susan B. Anthony.jpg",
+        "available": true
     },
     {
-        "name":"Raphael Korn",
-        "src":"/img/Raphael Korn/Official photo of drawing of Raphael Korn and his daughter.jpg"
+        "name": "Raphael Korn",
+        "src": "/img/Raphael Korn/Official photo of drawing of Raphael Korn and his daughter.jpg",
+        "available": true
     },
     {
-        "name":"Rayna",
-        "src":"/img/Rayna/Official photo of drawing of Rayna.jpg"
+        "name": "Rayna",
+        "src": "/img/Rayna/Official photo of drawing of Rayna.jpg",
+        "available": true
     },
     {
-        "name":"Rosanna Arquette",
-        "src":"/img/Rosanna Arquette/Official photo of drawing of Rosanna Arquette.jpg"
+        "name": "Rosanna Arquette",
+        "src": "/img/Rosanna Arquette/Official photo of drawing of Rosanna Arquette.jpg",
+        "available": true
     },
     {
-        "name":"Simon",
-        "src":"/img/Simon/Official photo of drawing on commission of daughters.jpg"
+        "name": "Simon",
+        "src": "/img/Simon/Official photo of drawing on commission of daughters.jpg",
+        "available": true
     },
     {
-        "name":"Steven Layne",
-        "src":"/img/Steven Layne/Official photo of drawing of wife of Steven Layne.jpg"
+        "name": "Steven Layne",
+        "src": "/img/Steven Layne/Official photo of drawing of wife of Steven Layne.jpg",
+        "available": true
     },
     {
-        "name":"Taylor Swift 1",
-        "src":"/img/TayTay/Official photo of drawing of Taylor Swift 1.jpg"
+        "name": "Taylor Swift 1",
+        "src": "/img/TayTay/Official photo of drawing of Taylor Swift 1.jpg",
+        "available": true
     },
     {
-        "name":"Taylor Swift 2",
-        "src":"/img/TayTay/Official photo of drawing of Taylor Swift 2.jpg"
+        "name": "Taylor Swift 2",
+        "src": "/img/TayTay/Official photo of drawing of Taylor Swift 2.jpg",
+        "available": true
     },
     {
-        "name":"Taylor Swift 3",
-        "src":"/img/TayTay/Official photo of drawing of Taylor Swift 4.jpg"
+        "name": "Taylor Swift 3",
+        "src": "/img/TayTay/Official photo of drawing of Taylor Swift 4.jpg",
+        "available": true
     },
     {
-        "name":"dua lipa",
-        "src":"/img/dua lipa/Official photo of drawing of Dua Lipa.jpg"
+        "name": "dua lipa",
+        "src": "/img/dua lipa/Official photo of drawing of Dua Lipa.jpg",
+        "available": true
     },
     {
-        "name":"Kyoto's Legend",
-        "src":"/img/Kyoto's Legend acrylic painting.jpg"
+        "name": "Kyoto's Legend",
+        "src": "/img/Kyoto's Legend acrylic painting.jpg",
+        "available": true
     },
     {
-        "name":"Mountain Lake",
-        "src":"/img/Mountain Lake (My first painting ever).jpg"
+        "name": "Mountain Lake",
+        "src": "/img/Mountain Lake (My first painting ever).jpg",
+        "available": true
     },
     {
-        "name":"New York in Noir",
-        "src":"/img/New York in Noir.jpg"
+        "name": "New York in Noir",
+        "src": "/img/New York in Noir.jpg",
+        "available": true
     },
     {
-        "name":"Breonna Taylor",
-        "src":"/img/Official photo of drawing of Breonna Taylor.jpg"
+        "name": "Breonna Taylor",
+        "src": "/img/Official photo of drawing of Breonna Taylor.jpg",
+        "available": true
     },
     {
-        "name":"Obama",
-        "src":"/img/Official photo of drawing of Obama-2.jpg"
+        "name": "Obama",
+        "src": "/img/Official photo of drawing of Obama-2.jpg",
+        "available": true
     },
     {
-        "name":"Country Road",
-        "src":"/img/Oil painting Country road.jpg"
+        "name": "Country Road",
+        "src": "/img/Oil painting Country road.jpg",
+        "available": true
     },
     {
-        "name":"Running Out Of Time",
-        "src":"/img/Running out of time oil painting.jpg"
+        "name": "Running Out Of Time",
+        "src": "/img/Running out of time oil painting.jpg",
+        "available": true
     },
     {
-        "name":"Secret in the woods",
-        "src":"/img/Secret in the woods acrylic painting.jpg"
+        "name": "Secret in the woods",
+        "src": "/img/Secret in the woods acrylic painting.jpg",
+        "available": true
     },
     {
-        "name":"Simple Life",
-        "src":"/img/Simple Life acrylic painting.jpg"
+        "name": "Simple Life",
+        "src": "/img/Simple Life acrylic painting.jpg",
+        "available": true
     },
     {
-        "name":"Skyscape",
-        "src":"/img/Skyscape oil painting.jpg"
+        "name": "Skyscape",
+        "src": "/img/Skyscape oil painting.jpg",
+        "available": true
     },
     {
-        "name":"Hope",
-        "src":"/img/hope acrylic painting.jpg"
+        "name": "Hope",
+        "src": "/img/hope acrylic painting.jpg",
+        "available": true
     },
     {
-        "name":"Lone Wolf",
-        "src":"/img/lone wolf acrylic painting.jpg"
+        "name": "Lone Wolf",
+        "src": "/img/lone wolf acrylic painting.jpg",
+        "available": true
     },
     {
-        "name":"Sweet Food",
-        "src":"/img/sweet food oil painting.jpg"
+        "name": "Sweet Food",
+        "src": "/img/sweet food oil painting.jpg",
+        "available": true
     }
-    
 ]
