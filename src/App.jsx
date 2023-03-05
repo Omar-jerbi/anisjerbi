@@ -7,7 +7,7 @@ import Press from './components/press/Press';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import { initializeApp } from 'firebase/app'
-import { getStorage, ref, getDownloadURL } from "firebase/storage";
+import { getStorage, ref } from "firebase/storage";
 
 
 function App() {
@@ -20,10 +20,6 @@ function App() {
   const app = initializeApp(fbConfig);
   const storage = getStorage(app)
   const storageRef = ref(storage);
-
-  const imagesRef = ref(storageRef, 'BGfooter.jpeg');
-
-  getDownloadURL(imagesRef).then((url) => console.log(url))
 
   return (
     <div className="App">

@@ -1,12 +1,16 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react'
 import './Gallery.scss'
-// import images from '../gallery.json'
+import images from '../gallery.json'
+import { ref, getDownloadURL } from "firebase/storage";
 
 
 export default class Gallery extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      imagesDW: []
     }
   }
 
@@ -19,25 +23,45 @@ export default class Gallery extends Component {
     }
   }
 
+  getImage = async (src) => {
+    const imagesRef = ref(this.props.storageRef, src);
+    let r = ''
+    await getDownloadURL(imagesRef).then((url) => console.log(url))
+    return r
+  }
+
+
+  componentDidMount = () => {
+    images.map(i => {
+      const imagesRef = ref(this.props.storageRef, i.src);
+      getDownloadURL(imagesRef)
+        .then((url) => {
+          let arr = this.state.imagesDW
+          arr.push({ img: <img src={url} />, n: i.name, a: i.available })
+          this.setState({ imagesDW: arr })
+        })
+        .catch((error) => {
+
+        });
+    })
+  }
 
   render() {
     return (
       <div className="gallery">
-        {/* {
-          images.map((img, k) =>
-            <div className="image" onClick={(e) => this.handleClickImg(e)}>
-              <img src={img.src} alt="" />
+        {
+          this.state.imagesDW.map((img, k) =>
+            <div key={k} className="image" onClick={(e) => this.handleClickImg(e)}>
+              {img.img}
               <div className="title">
-                {img.name}
+                {img.n}
               </div>
-              {!img.available &&
+              {!img.a &&
                 <div className="ribbon">SOLD</div>
               }
             </div>
           )
-        } */}
-
-      {console.log(this.props.storageRef)}
+        }
       </div>
     )
   }
