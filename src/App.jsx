@@ -21,10 +21,9 @@ function App() {
   const app = initializeApp(fbConfig);
   const storage = getStorage(app)
   const storageRef = ref(storage);
+
   const imagesRef = ref(storageRef, 'BGfooter.jpeg');
-
   const [x, setX] = useState('')
-
   getDownloadURL(imagesRef).then((url) => setX(url))
 
   return (
@@ -35,7 +34,7 @@ function App() {
         <Routes>
           <Route exact index element={<Home />} />
           <Route exact path='/contacts' element={<Contacts />} />
-          <Route exact path='/gallery' element={<Gallery imagesRef={x} />} />
+          <Route exact path='/gallery' element={<Gallery storageRef={storageRef} />} />
           <Route exact path='/press' element={<Press />} />
         </Routes>
 

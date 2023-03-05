@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './Gallery.scss'
-import images from '../gallery.json'
-import firebase from "firebase/app";
+// import images from '../gallery.json'
 
 
 export default class Gallery extends Component {
@@ -38,7 +37,7 @@ export default class Gallery extends Component {
           )
         } */}
 
-        <img src={this.props.test} alt="" />
+      {console.log(this.props.storageRef)}
       </div>
     )
   }
