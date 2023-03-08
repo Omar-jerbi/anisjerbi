@@ -191,7 +191,9 @@
         justify-content: center;
         align-items: center;
         gap: 2rem;
-
+        a{
+        text-decoration:none;
+        }
         button {
             cursor: pointer;
             display: flex;
